@@ -1,0 +1,33 @@
+Trigger to create to db:
+DELIMITER $$
+
+DROP TRIGGER IF EXISTS after_user_insert$$
+
+CREATE TRIGGER after_user_insert
+AFTER INSERT ON Users
+FOR EACH ROW
+BEGIN
+    DECLARE role_id INT;
+    IF NEW.UserName = 'admin' THEN
+        SELECT Id INTO role_id FROM AspNetRoles WHERE RoleName = 'Admin' LIMIT 1;
+    ELSEIF NEW.UserName = 'ndauser1' THEN
+        SELECT Id INTO role_id FROM AspNetRoles WHERE RoleName = 'NDAUser' LIMIT 1;
+    ELSE
+        SELECT Id INTO role_id FROM AspNetRoles WHERE RoleName = 'Cashier' LIMIT 1;
+    END IF;
+    INSERT INTO UserRoles (UserId, RoleId) VALUES (NEW.Id, role_id);
+END$$
+
+DELIMITER ;
+
+
+Users to insert:
+INSERT INTO Users (Email, EmailConfirmed, PasswordHash, SecurityStamp, PhoneNumber, PhoneNumberConfirmed,
+                       TwoFactorEnabled, LockoutEnabled, AccessFailedCount, UserName, Firstname, Surname, IsEnabled)
+    VALUES
+    ('admin@example.com', TRUE, 'hashed_password_admin', 'some_stamp', '1234567890', TRUE, FALSE, TRUE, 0, 'admin', 'Admin', 'User', TRUE),
+    ('ndauser@example.com', TRUE, 'hashed_password_nda1', 'some_stamp', '1234567891', TRUE, FALSE, TRUE, 0, 'ndauser1', 'NDA', 'User1', TRUE),
+    ('cashier@example.com', TRUE, 'hashed_password_cashier', 'some_stamp', '1234567892', TRUE, FALSE, TRUE, 0, 'cashier1', 'Cashier', 'User', TRUE);
+
+
+Όταν κλείνει το QWidget στο Login Admin δεν ξανανοίγει για κάποιο λόγο.

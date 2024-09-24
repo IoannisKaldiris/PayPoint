@@ -40,7 +40,7 @@ This guide provides step-by-step instructions for setting up and executing the P
 - **Check Services**: Ensure Apache and MySQL services in XAMPP are running.
 - **Database Connection**: Verify connection details with the database.
 
-
+###Contributors:
 
 Ioannis Kaldiris (up1080428@ac.upatras.gr)
 

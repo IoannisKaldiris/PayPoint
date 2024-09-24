@@ -27,7 +27,7 @@ This guide provides step-by-step instructions for setting up and executing the P
 
 ### Initial Setup
 
-1. **Download Source Code**: Clone or download the repository. For instructions, click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+1. **Download Source Code**: Clone or download the repository. For instructions, click [here](h[ttps://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository](https://github.com/IoannisKaldiris/PayPoint/tree/main/%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%203%CE%BF/ProjectCode)).
   
 2. **Install Required Packages**: 
    - Navigate to the folder with `requirements.txt`.

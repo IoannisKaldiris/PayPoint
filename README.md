@@ -15,7 +15,7 @@ This guide provides step-by-step instructions for setting up and executing the P
 
 ### Prerequisites
 
-- **Python Installation**: Ensure Python is installed. The application uses Python 3.12.3 but is compatible with versions from 3.6 and later.       [Python](https://www.python.org/downloads/).
+- **[PythonInstallation](https://www.python.org/downloads/)**: Ensure Python is installed. The application uses Python 3.12.3 but is compatible with versions from 3.6 and later.       .
   
 - **IDE Environment**: Recommended IDEs include [VSCode](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), or [PyCharm](https://www.jetbrains.com/pycharm/). The system was developed using PyCharm.
 
@@ -27,15 +27,8 @@ This guide provides step-by-step instructions for setting up and executing the P
 
 ### Initial Setup
 
-1. **Download Source Code**: Clone or download the repository. For instructions, click [here](https://github.com/IoannisKaldiris/PayPoint/tree/main/%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%203%CE%BF/ProjectCode).
+**Download Source Code**: Clone or download the repository. For instructions, click [here](https://github.com/IoannisKaldiris/PayPoint/tree/main/%CE%A0%CE%B1%CF%81%CE%B1%CE%B4%CE%BF%CF%84%CE%AD%CE%BF%203%CE%BF/ProjectCode).
   
-2. **Install Required Packages**: 
-   - Navigate to the folder with `requirements.txt`.
-   - Run:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
 ### Running the Script
 
 1. **Prepare the Environment**: Ensure compatibility with the Python version.

@@ -15,7 +15,9 @@ This guide provides step-by-step instructions for setting up and executing the P
   
 - **IDE Environment**: Recommended IDEs include [VSCode](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), or [PyCharm](https://www.jetbrains.com/pycharm/). The system was developed using PyCharm.
 
-- **XAMPP Installation**: Provides a local server for the MySQL database. 
+- You can use the following hyperlink for XAMPP:
+
+- **XAMPP Installation**: [Download XAMPP](https://www.apachefriends.org/index.html) Provides a local server for the MySQL database. 
   - Download from [Apache Friends](https://www.apachefriends.org/index.html).
   - Access phpMyAdmin at [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/).
 

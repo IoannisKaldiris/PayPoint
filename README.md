@@ -1,15 +1,22 @@
 # PayPoint
 
-## Περιγραφή Έργου
 
-Το παρόν έργο στοχεύει στη δημιουργία αυτοματοποίησης των καθημερινών συναλλαγών μίας επιχείρησης δίνοντας ταυτόχρονα την δυνατότητα μέσω του συστήματος PayPoint στους εκάστοτε επιχειρηματίες να διασφαλίζεται η ακρίβεια των συναλλαγών πράγμα αναγκαίο για την βιωσιμότητα και την ανάπτυξη μίας επιχείρησης. Ο σκοπός μας είναι να συνδράμουμε στην ήδη αυξημένη ζήτηση της αγοράς. Με την χρήση του σύστηματος PDN επιτυγχάνουμε να διασφαλίσουμε πρωτίστως την ασφάλεια των συναλλαγών καθώς και ένα πλήρες ολοκληρωμένο και πλήρως λειτουργικό περιβάλλον στο οποίο οι χρήστες θα έχουν την δυνατότητα να πραγματοποιήσουν κάθε είδους πληρωμή αλλά και να διαχειριστούν μετρητά. 
 
-### Συντάκτες του έργου:
+## Project Overview
 
-Καλδίρης Ιωάννης (up1080428@ac.upatras.gr)
+This project aims to automate the daily transactions of a business while providing entrepreneurs with the PayPoint system to ensure transaction accuracy, which is essential for the sustainability and growth of any enterprise. Our goal is to meet the increasing demand in the market.
 
-Παπαδόπουλος Περικλής (up1084540@ac.upatras.gr)
+By utilizing the PDN system, we prioritize the security of transactions and create a comprehensive, fully functional environment where users can perform various types of payments and manage cash effectively.
 
-Γιαννόπουλος Χαράλαμπος	(up1064037@ac.upatras.gr)
 
-Γιαννέλος Στάθης (up1048394@ac.upatras.gr)
+
+
+### Contributors:
+
+Ioannis Kaldiris (up1080428@ac.upatras.gr)
+
+PapadopoulosPeriklis (up1084540@ac.upatras.gr)
+
+Giannopoulos Xaralampos(up1064037@ac.upatras.gr)
+
+Giannelos Stahis  (up1048394@ac.upatras.gr)

@@ -17,7 +17,7 @@ This guide provides step-by-step instructions for setting up and executing the P
 
 - You can use the following hyperlink for XAMPP:
 
-- **XAMPP Installation**: [Download XAMPP](https://www.apachefriends.org/index.html) Provides a local server for the MySQL database. 
+  - [XAMPP](https://www.apachefriends.org/index.html) Provides a local server for the MySQL database. 
   - Download from [Apache Friends](https://www.apachefriends.org/index.html).
   - Access phpMyAdmin at [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/).
 

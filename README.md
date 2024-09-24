@@ -11,8 +11,7 @@ This guide provides step-by-step instructions for setting up and executing the P
 
 ### Prerequisites
 
-- **Python Installation**: Ensure Python is installed. The application uses Python 3.12.3 but is compatible with versions from 3.6 and later.
-- [official website](https://www.python.org/downloads/).
+- **Python Installation**: Ensure Python is installed. The application uses Python 3.12.3 but is compatible with versions from 3.6 and later.     - [official website](https://www.python.org/downloads/).
   
 - **IDE Environment**: Recommended IDEs include [VSCode](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), or [PyCharm](https://www.jetbrains.com/pycharm/). The system was developed using PyCharm.
 
